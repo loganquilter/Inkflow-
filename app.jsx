@@ -1,3 +1,4 @@
+const PROXY_URL = "https://project-itmzw.vercel.app/api/proxy"
 const NICHES = [
 { id: "finance", label: "Personal Finance", emoji: "💰", cpc: "$4.20" },
 { id: "health", label: "Health & Wellness", emoji: "🏃", cpc: "$3.80" },
