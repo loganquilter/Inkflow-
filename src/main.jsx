@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom/client";
 const PROXY_URL = "https://project-itmzw.vercel.app/api/proxy"
 const NICHES = [
 { id: "finance", label: "Personal Finance", emoji: "💰", cpc: "$4.20" },
@@ -335,3 +337,5 @@ All plans include a 7-day free trial. Cancel anytime.
 </div>
 );
 }
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
