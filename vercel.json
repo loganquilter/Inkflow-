@@ -1,7 +1,6 @@
 {
-"functions": {
-"api/proxy.js": {
-"runtime": "edge"
-}
-}
+  "rewrites": [
+    { "source": "/(.*)",
+"destination": "/index.html" }
+  ]
 }
